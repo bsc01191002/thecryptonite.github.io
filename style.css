@@ -1,0 +1,258 @@
+body {
+  text-align: center;
+}
+
+.brand
+{
+  width: 130px;
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+h2 a{
+  color: #1e7e34;
+  font-size: 1.5rem;
+}
+
+.container
+{
+  margin-top: 18px;
+}
+
+
+.offset:before {
+  display: block;
+  content:"";
+  height: 4rem;
+  margin-top: -4rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+} 
+
+/*--- Navigation --*/
+
+.navbar {
+  font-weight: 700;
+  font-size: 1rem;
+  opacity: 70%;
+}
+
+.navbar-collapse {
+  margin-right: 7rem;
+}
+
+.navbar-brand img {
+  height: 5rem;
+  margin-left: 7.5rem;
+  margin-top: -.1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  padding-left: 3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #0be63e;
+}
+
+.navbar button{
+  background-color: 1e7e34;
+  color: white;
+  margin-right: 2rem;
+  border-color: white;
+  padding: .2rem .6rem;
+}
+
+
+.navbar button:hover{
+  background-color: #126926;
+  color: white;
+}
+
+/*Landing*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: table;
+  z-index: -1;
+}
+
+.aboutus {
+  background-image: url(images/computers.png);
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
+.home-inner {
+  background-image: url(img/computers.png);
+}
+
+.caption {
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  
+}
+
+.caption h1 {
+  font-size: 3.8rem;
+  font-weight: 700;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: .8rem;
+  text-transform: uppercase;
+}
+
+.caption p {
+  font-size: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+/*End landing*/
+
+/*Cryptonite*/
+
+.jumbotron {
+  margin: 0;
+  padding: 2rem 0 3.5rem;
+  border-radius: 0;
+}
+
+h3.heading {
+  font-size: 3.0rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  color: #1e7e34;
+}
+
+h4.description{
+  padding-bottom: 2rem;
+}
+
+.service svg.svg-inline--fa {
+  color: white;
+}
+
+.service h3 {
+ font-size: 1.3rem;
+ padding-bottom: .4rem;
+ color: white;
+}
+
+.service p {
+  color: white;
+}
+
+.service{
+  background-color: #1e7e34;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.service .nav-link:hover{
+  background: rgba(0, 0, 0, 0.6)!important;
+  color: white;
+}
+
+/*Support Us Section*/
+
+
+
+h3.heading1{
+  font-size: 3.0rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+  color: #1e7e34;
+}
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-size: 100%, 100%;
+height: 50px;
+width: 50px;
+background: #1e7e34;
+border-radius: 60%;
+border: thick;
+background-image: none;
+box-shadow: 1px 1px 3px grey;
+}
+
+.product-carou svg.svg-inline--fa {
+color: white;
+margin-top: 17px;
+}
+
+.product-carou span.i-left{
+position: absolute;
+top: 50%;
+left: 10px;
+}
+
+.product-carou span.i-right {
+position: absolute;
+top: 50%;
+right: 10px;
+}
+
+.product-carou span.i-left{
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
+
+.products img {
+  width: 70%;
+  height: 20rem;
+  object-fit: contain;
+}
+
+.product-item:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 5px 2px grey;
+  -moz-box-shadow: 0 0 5px 2px grey;
+  box-shadow: 0 0 5px 2px grey;
+}
+
+#next-product:hover {
+  cursor: pointer;
+}
+
+#prev-product:hover {
+  cursor: pointer;
+}
+
+
+
+/*Footer*/
+
+footer{
+  padding-top: 0.05rem; 
+  padding-bottom: 1rem; 
+  background:#1e7e34;
+}
+
+footer a{
+color: #fff;
+
+}
+
+footer a:hover{
+  color: #fff;
+}
