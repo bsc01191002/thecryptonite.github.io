@@ -1,6 +1,6 @@
 
 //Variables
-let products = []
+let product = []
 let current_first = 0;
 let prev_btn = document.querySelector('#prev-product');
 let next_btn = document.querySelector('#next-product');
